@@ -1,20 +1,20 @@
 console.log('Ask eather')
 
-let weather= prompt('¿Como está el clima?')
+const WEATHER= prompt('¿Como está el clima?')
 
-if(weather=="soleado"){
+if(WEATHER==="soleado"){
     console.log('El día esta soleado por aqui')
 }
-else if(weather=="lluvioso"){
+else if(WEATHER==="lluvioso"){
     console.log('El día esta lluvioso por aqui')
 }
-else if(weather=="nevando"){
+else if(WEATHER==="nevando"){
     console.log('El día esta nevando por aqui')
 }
-else if(weather=="nublado"){
+else if(WEATHER==="nublado"){
     console.log('El día esta nublado por aqui')
 }
 else{
-    let weather_two = prompt('Descirbe el clima')
-    console.log(`El clima esta ${weather_two}`)
+    const WEATHER_TWO = prompt('Descirbe el clima')
+    console.log(`El clima esta ${WEATHER_TWO}`)
 }
