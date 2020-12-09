@@ -1,4 +1,4 @@
-console.log('Ask eather')
+console.log('Ask weather')
 
 const WEATHER= prompt('¿Como está el clima?')
 
