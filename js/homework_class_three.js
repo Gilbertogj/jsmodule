@@ -19,8 +19,9 @@ for (let i=1; i<=100 ; i++){
 // “en un lugar de la mancha” -> 5
 console.log('Espacios en cadena de texto')
 var str1="en un lugar de mancha"
-var res1 = str1.split(" ").length-1
-console.log(res1)
+var res1 = str1.split(" ")
+var res2= res1.length-1
+console.log(res2)
 
 
 
