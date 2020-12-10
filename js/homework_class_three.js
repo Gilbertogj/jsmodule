@@ -27,7 +27,17 @@ console.log(res2)
 
 // imprimir en consola la cantidad de vocales que se encuentran en una cadena de texto
 // “Hola mundo” -> 4
+console.log('Cantidad de vocales en cadena de texto')
 
+var str2="Hola mundo"
+let vowels=0
 
+for(let i=0; i<str2.length; i++){
+    if(str2[i]==='a' || str2[i]==='e' || str2[i]==='i' || str2[i]==='o' || str2[i]==='u' ){
+        vowels++
+    }
+}
+console.log(str2)
+console.log(`Number of vowels= ${vowels}`)
 
 
