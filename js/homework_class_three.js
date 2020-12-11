@@ -1,8 +1,8 @@
 // Imprimir en la consola la tabla del 7 
 console.log('Tabla de multiplicar del 7')
-for(let i=1 ; i<=7 ; i++){
-    let result= 1*i
-    console.log("1 x " + i + " = " + result)
+for(let i=1 ; i<=10 ; i++){
+    let result= 7*i
+    console.log("7 x " + i + " = " + result)
 }
 
 
