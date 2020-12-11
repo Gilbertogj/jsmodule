@@ -8,9 +8,9 @@ for(let i=1 ; i<=10 ; i++){
 
 // imprimir en consola los múltiplos de 3 y 7  que se encuentran entre el 1 y el 100
 // 3,6,7,9,12,14,15....
-console.log('Múltiplos del 7')
+console.log('Múltiplos del 7 y 3')
 for (let i=1; i<=100 ; i++){
-    if(i % 7 ===0){
+    if(i % 7 ===0 && i % 3===0 ){
         console.log(i )
     }
 }
