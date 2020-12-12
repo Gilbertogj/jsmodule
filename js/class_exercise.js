@@ -38,4 +38,17 @@ for(let i=stringtoreverse.length-1;i>=0;i--){
 console.log(stringreversed)
 
 
+// functions
 
+function getName(){
+    const name=prompt('¿Cual es tu nombre?')
+    console.log(name)
+}
+
+function getNameReverse(stringName,lasName){
+    console.log(stringName,lastName)
+}
+
+function add(valOne,valTwo){
+    console.log(valOne+valTwo)
+}
