@@ -87,8 +87,8 @@ if (number_one > number_two) {
 }
 
 // 6. vowels
-function vowels(str2){
-
+function vowels(string){
+    const str2=string
     let vowels=0
 
     for(let i=0; i<str2.length; i++){
