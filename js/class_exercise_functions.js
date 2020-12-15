@@ -32,7 +32,8 @@ function palindromo(str1){
     
 }
 
-// 
+// palindromo
+
 
 
 
