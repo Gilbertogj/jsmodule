@@ -12,6 +12,7 @@ for(let i=0;i<myArray.length;i++){
 }
 
 
+
 // imprimir en consola el resultao de la suma 
 // de todos los elemntos de un array
 // [1,2,3,4]
