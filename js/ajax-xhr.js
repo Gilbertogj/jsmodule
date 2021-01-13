@@ -55,3 +55,22 @@ document.getElementById('getusers').addEventListener('click', loadPosts)
 // window.addEventListener('load', loadUsers)
 
 
+// crear nuevo usuario 
+let newUser ={
+    id: 1,
+    lastname: "Garcia",
+    name: "Gilberto",
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
