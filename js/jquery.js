@@ -10,31 +10,16 @@ $('h2').text('Titulo de su agrado')
 
 
 $('.sorting a').click(function(){
-    
-    $('.america').show()
-    $('.america').show()
-    $('.europe').hide()
-    $('.asia').hide()
-
+    let continent=$(this).text()
+    if(continent==='Todos'){
+        $('#vacations .vacation').show()
+    }else{
+        $('#vacations .vacation').hide()
+        $(`#vacations .${continent.toLowerCase()}`).show()
+    }
 })
-$('.sorting li:nth-child(2) a').click(function(){
-    $('.america').show()
-    $('.america').show()
-    $('.europe').hide()
-    $('.asia').hide()
 
-})
-$('.sorting:third').click(function(){
-    $('.america').hide()
-    $('.america').hide()
-    $('.europe').show()
-    $('.asia').hide()
+$('.desc__faq').hide()
+$('.desc__faq:first').show()
 
-})
-$('.sorting:fourth').click(function(){
-    $('.america').hide()
-    $('.america').hide()
-    $('.europe').hide()
-    $('.asia').show()
 
-})
